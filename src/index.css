@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.increment-btn {
+  width: 100px;
+  padding: 10px;
+  color: #111;
+  font-size: 50px;
+}
+
+.App {
+  margin: auto;
+  width: 50%;
+}
+
+button {
+  margin: 5px;
+}
