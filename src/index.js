@@ -7,25 +7,12 @@ import allReducers from './reducers';
 import { createStore } from "redux";
 import { Provider } from 'react-redux';
 
-
 //Store: global state and hold all info for app
 const store = createStore(allReducers, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__())
-
 //ACTION what you wanna do
-
-
-
 //REDUCER how actions transform the state
-
-
-
-
-
 //DISPLAY IN CONSOLE
-
 //DISPATCH execute the action
-
-
 
 ReactDOM.render(
   <Provider store={store}>
